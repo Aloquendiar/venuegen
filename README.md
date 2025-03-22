@@ -6,6 +6,7 @@ This fork is a port of venuegen (created by kueller) to Python 3 and REAPER 7 do
 - This version of venuegen **does** close after completing a function, as opposed to the original which does not.
 - This version **ALWAYS** overwrites any notes that were in the CAMERA and/or LIGHTING tracks when pulling from the venue. Please make sure you don't want to keep anything in those tracks before use the pull functions.
 - The AUTOSTROBE and RANDOM functions haven't been tested (I never use them), so they may or may not work.
+- The directed cuts All LT, Drums LT, Bass CLS, Gtr CLS, Drums KD and Crowd will no longer create a second cut this is because the reason we do this is because of something called shot_5 in the game using my new system this is unnecessary and will create problems
 
 # venuegen
 
