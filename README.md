@@ -1,4 +1,4 @@
-# venuegen port to Python 3
+# venuegen port to Python 3 and usable for venue variants in DX
 
 This fork is a port of venuegen (created by kueller) to Python 3 and REAPER 7 done by Deevun155. The code has been tested using 64 bit REAPER 7 and Python 3.10. The original README is below, but there are some things that are no longer the case:
 - Obviously this port needs Python 3 instead of 2.
