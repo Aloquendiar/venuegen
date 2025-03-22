@@ -384,7 +384,7 @@ def generate_venue():
     remove_events(data)
     cam_range = dict_merge((DIRECTED, DIRECTED_FREEBIES, CAMERA))
     section_generate(data, DIRECTED, cam_range, False)
-    section_generate(data, DIRECTED_FREEBIES, cam_range, True)
+    section_generate(data, DIRECTED_FREEBIES, cam_range, False) # These cuts for my new function in dx should not make copies of themselves so I will disable this. (originally in True)
     section_generate(data, CAMERA, cam_range, False)
     apply_random_notes(data)
     write_midi_data(cam_item, data)
